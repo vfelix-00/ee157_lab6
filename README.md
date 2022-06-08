@@ -66,9 +66,9 @@ We saw that there is overshoot.
 
 I don't think so. Since, the back-EMF is not linear, Ziegler-Nicols method was not appropriate because of non-idealities/non-linearities that the servo system introduces. 
 
-## Conclusion
+## Motor Oscillating 
 
-In conclusion, we got our servo motor working and could adjust the parameters. 
+
 
 
 
