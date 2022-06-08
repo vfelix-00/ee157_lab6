@@ -69,6 +69,10 @@ I don't think so. Since, the back-EMF is not linear, Ziegler-Nicols method was n
 ## Motor Oscillating 
 
 
+https://user-images.githubusercontent.com/71578472/172564882-0665e5c1-9ded-42a5-ae91-9c170a7d5f6d.mov
+
+
+
 
 
 
