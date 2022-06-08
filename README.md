@@ -38,4 +38,25 @@ I think the frequency 15 kHz was chosen since it is a realtively low frequency. 
 
 We observed that the motor overcame friction at 300 mV and it had a coil resitance of 5 ohms. So, the current supplied was 0.06 Amps. This means that the power output was 18 mW, making the friction about 18 mNm.
 
+3. Find the gain and period of oscillation when the system begins sustained self-oscillation. Use these values to calculate some initial guesses for the Kp, Ki, and Kd coefficient using the “some overshoot” Ziegler-Nichols method.
+
+We were able to find that a gain of 120 allowed a sustained oscillation. We then calculated Kp = 0.00276, Ki = 0.1083, and Kd = 4.745e-5.
+
+<img width="982" alt="lab6_q3" src="https://user-images.githubusercontent.com/71578472/172556883-60a8b2ed-fea7-4be8-8580-d38b049be240.png">
+
+4. Now reduce the gain to just below threshold where oscillations are sustained. Give the system a step command voltage. Show a scope capture including the command voltage and position feedback voltage for a 1V step command. If you are using a square wave position command, make sure period is long enough for the position to settle.
+
+<img width="986" alt="lab6_q4" src="https://user-images.githubusercontent.com/71578472/172557177-cd91bfee-1f02-484c-a189-47d6cf400741.png">
+
+5. Describe what you see. Is there overshoot? Is there steady state error?
+
+We saw that there is overshoot. 
+
+6. Now reduce the proportional gain even further (to about 1/4 of the previous value). Show a scope capture of the step response and compare the results.
+
+<img width="977" alt="lab6_q6" src="https://user-images.githubusercontent.com/71578472/172557531-65f4e378-68ee-415f-9f2b-907564279176.png">
+
+
+
+
 
