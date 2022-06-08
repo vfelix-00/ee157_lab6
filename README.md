@@ -2,7 +2,7 @@
 
 Vanessa Felix
 
-Lab Partner: Vivian Auduong, Jaden Redhair 
+Lab Partner: Jaden Redhair 
 
 ## Overview 
 
