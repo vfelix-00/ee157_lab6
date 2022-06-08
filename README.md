@@ -62,6 +62,10 @@ We saw that there is overshoot.
 
 <img width="977" alt="lab6_q6" src="https://user-images.githubusercontent.com/71578472/172557531-65f4e378-68ee-415f-9f2b-907564279176.png">
 
+12. Do you think the Ziegler-Nichols method was appropriate for this servo? What are the non-idealities of our servo that might give the Ziegler-Nichols method trouble?
+
+I don't think so. Since, the back-EMF is not linear, Ziegler-Nicols method was not appropriate because of non-idealities/non-linearities that the servo system introduces. 
+
 ## Conclusion
 
 In conclusion, we got our servo motor working and could adjust the parameters. 
