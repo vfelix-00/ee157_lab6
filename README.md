@@ -34,5 +34,6 @@ This is the summary of the circuit components we put together:
 
 I think the frequency 15 kHz was chosen since it is a realtively low frequency. This allows the opamps to keep up. It is also in the mid-range for op amp operation. Factors to consider in a PWM are probably the shape, switching frequency, and duty cycle.
 
+2. Estimate the friction torque of the gearbox. Please refer to the motor specsheet in the pre-lab handout. (Hint, you may want to measure the resistance of the motor coils to estimate the current). Show your reasoning.
 
 
