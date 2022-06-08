@@ -32,3 +32,7 @@ This is the summary of the circuit components we put together:
 
 1. In figure 3, the carrier waveform is set to 15 kHz. Why do you think this frequency was chosen? What are the factors to consider when selecting a PWM frequency for a motor driver bridge?
 
+I think the frequency 15 kHz was chosen since it is a realtively low frequency. This allows the opamps to keep up. It is also in the mid-range for op amp operation. Factors to consider in a PWM are probably the shape, switching frequency, and duty cycle.
+
+
+
