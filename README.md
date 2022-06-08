@@ -32,8 +32,10 @@ This is the summary of the circuit components we put together:
 
 1. In figure 3, the carrier waveform is set to 15 kHz. Why do you think this frequency was chosen? What are the factors to consider when selecting a PWM frequency for a motor driver bridge?
 
-I think the frequency 15 kHz was chosen since it is a realtively low frequency. This allows the opamps to keep up. It is also in the mid-range for op amp operation. Factors to consider in a PWM are probably the shape, switching frequency, and duty cycle.
+I think the frequency 15 kHz was chosen since it is a realtively low frequency. This allows the opamps to keep up. It is also in the mid-range for op amp operation. Factors to consider in a PWM are probably the shape, switching frequency, and duty cycle. This frequency may also balance the switching losses associated with turning transistors on and off. 
 
 2. Estimate the friction torque of the gearbox. Please refer to the motor specsheet in the pre-lab handout. (Hint, you may want to measure the resistance of the motor coils to estimate the current). Show your reasoning.
+
+We observed that the motor overcame friction at 300 mV and it had a coil resitance of 5 ohms. So, the current supplied was 0.06 Amps. This means that the power output was 18 mW, making the friction about 18 mNm.
 
 
