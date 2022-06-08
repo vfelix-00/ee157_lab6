@@ -28,6 +28,12 @@ This is the summary of the circuit components we put together:
 - Error amplifier using position measurement from the rotary potentiometer in the hobby servo.
 - Feedback control loop. This will include a summing amplifier that adds together the signals of the proportional, integral, and derivative gain amplifiers. The output of our PID terms are going to be ”fed back” and set the PWM duty cycle of our H-bridge.
 
+## Circuit Diagram
+
+
+![EE157_Lab_6_Lab_Handout](https://user-images.githubusercontent.com/71578472/172559406-f0c509db-db40-4d37-994d-fe43b16dd870.jpeg)
+
+
 ## Submission Items
 
 1. In figure 3, the carrier waveform is set to 15 kHz. Why do you think this frequency was chosen? What are the factors to consider when selecting a PWM frequency for a motor driver bridge?
@@ -55,6 +61,10 @@ We saw that there is overshoot.
 6. Now reduce the proportional gain even further (to about 1/4 of the previous value). Show a scope capture of the step response and compare the results.
 
 <img width="977" alt="lab6_q6" src="https://user-images.githubusercontent.com/71578472/172557531-65f4e378-68ee-415f-9f2b-907564279176.png">
+
+## Conclusion
+
+In conclusion, we got our servo motor working and could adjust the parameters. 
 
 
 
