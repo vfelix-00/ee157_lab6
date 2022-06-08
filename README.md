@@ -15,3 +15,25 @@ The objectives of this lab were:
 - Learn about pulse width modulation (PWM) and create a circuit that generates PWM signals that control the voltage on a brushed DC motor. 
 - Learn about and create a closed-loop position control for a servo drive using an analog PID controller.
 -  Experiment with and understand the practical considerations when designed position controllers for servo applications.
+
+## Procedure summary
+
+This lab required putting together a relatively complex circuit. Debugging circuits like this can be difficult, so we tested and verified smaller components as we built it. We practiced making neat breadboard circuits, keeping our components close to the board and minimizing large loops for signal wires. Once we confirmed that the small parts of the circuit were working, we trimmed all the wires and components down to keep things neat and double checked if it still worked. 
+
+
+If you encounter a bug, remember to measure signals at all stages of your circuit.
+Also, don’t forget to take notes as you build out your circuit. Writing down component
+values or amplifier gains for your various amplifiers can save you a lot of time if you have to
+revisit something later. Also, if you have rows on the breadboard where jumpers to external
+components or supplies are connect, it can be helpful to write down where you had everything
+connected before removing those jumpers if you have to modify something.
+This is the summary of the circuit components we will put together:
+•Analog PWM generator using the Analog Discover 2 to generate a triangle wave, and
+making comparators with the MCP600x op-amps.
+•PWM-based voltage source based on the L9110 H-bridge that will drive the brushed
+DC motor inside the hobby servo.
+•Error amplifier using position measurement from the rotary potentiometer in the hobby
+servo.
+•Feedback control loop. This will include a summing amplifier that adds together the
+signals of the proportional, integral, and derivative gain amplifiers. The output of our
+PID terms are going to be ”fed back” and set the PWM duty cycle of our H-bridge.
